@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Usuario;
 use App\Http\Controllers\Controller;
 
+
 class UsuarioController extends Controller
 {
     /**
@@ -16,7 +17,7 @@ class UsuarioController extends Controller
     {
         $lista_usuarios = Usuario::all();
 
-        return view('usuario.index', ['usuarios' => $lista_usuarios]);
+        return view('usuario.index', compact( $lista_usuarios));
     }
 
 

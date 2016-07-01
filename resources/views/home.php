@@ -22,9 +22,10 @@
                     <a class="navbar-brand" href="#">Titulo da página</a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Gerenciar Usuários</a></li>
+                    <li><a href="#">Gerenciar Publicações</a></li>
                 </ul>
-            </div>            
+            </div>
         </div>
     </nav>
     <div class="container">

@@ -16,4 +16,5 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::resource('usuarios', 'UsuarioController');
+Route::resource('usuario', 'UsuarioController');
+Route::resource('publi', 'PublicacaoController');
