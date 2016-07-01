@@ -2,8 +2,9 @@
 
 Este blog foi construído utilizando o framework Laravel, e Bootswatch no front-end
 
-/usuarios   deve conter o gerenciamento de usuarios
-/publi      deve conter o gerenciamento de publicacoes
+ - /usuarios   deve conter o gerenciamento de usuarios
+
+ - /publi      deve conter o gerenciamento de publicacoes
 
 ## License
 
