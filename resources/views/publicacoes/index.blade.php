@@ -23,15 +23,15 @@
                 </div>
                 <ul class="nav nav-pills navbar-right">
                     <li ><a href="#">Home</a></li>
-                    <li class="active"><a href="#">Gerenciar Usuários</a></li>
-                    <li><a href="#">Gerenciar Publicações</a></li>
+                    <li ><a href="#">Gerenciar Usuários</a></li>
+                    <li class="active"><a href="#">Gerenciar Publicações</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class=container>
         <div class="page-header">
-            <h1 id="usuarios">Usuarios</h1>
+            <h1 id="usuarios">Publicações</h1>
         </div>
         <table class="table table-striped table-hover ">
             <thead>
@@ -42,26 +42,25 @@
                     <th>Column heading</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>4</td>
-                    <td>Column content</td>
-                    <td>Column content</td>
-                    <td>Column content</td>
-                </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Column content</td>
-                            <td>Column content</td>
-                            <td>Column content</td>
-                        </tr>
-                <tr>
+            <tbody id="tabelaPublicacoes">
+                <tr >
                     <td>3</td>
                     <td>Column content</td>
                     <td>Column content</td>
                     <td>Column content</td>
                 </tr>
-
+            <tr>
+                <td>1</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                        <td>Column content</td>
+                        <tr>
                 <tbody>
 
                 </div>

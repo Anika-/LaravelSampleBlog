@@ -16,6 +16,13 @@ class PublicacaoController extends Controller
         return view('publi.index', compact( $lista_publicacoes));
     }
 
+
+    public function getcontent(){
+        foreach( $publicacao->conteudo as $texto ) {
+            	echo $texto;
+            }
+    }
+
     public function create()
     {
         //

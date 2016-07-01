@@ -11,10 +11,11 @@ class UsuarioController extends Controller
     /**
      * Show a list of all available users.
      *
-     * @return Response
+     * @return pagina para qual essa requisicao sera redirecionada
      */
     public function index()
     {
+        //echo 'test';
         $lista_usuarios = Usuario::all();
 
         return view('usuario.index', compact( $lista_usuarios));

@@ -10,6 +10,7 @@
 <body>
 
     <nav class="navbar navbar-default">
+        
         <div class="container">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -21,7 +22,8 @@
                     </button>
                     <a class="navbar-brand" href="#">Titulo da página</a>
                 </div>
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav nav-pills navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">Gerenciar Usuários</a></li>
                     <li><a href="#">Gerenciar Publicações</a></li>
                 </ul>
