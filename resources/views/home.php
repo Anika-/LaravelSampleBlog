@@ -10,7 +10,7 @@
 <body>
 
     <nav class="navbar navbar-default">
-        
+
         <div class="container">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -31,14 +31,6 @@
         </div>
     </nav>
     <div class="container">
-        <div class="jumbotron">
-            <div class="row" >
-                <h2>IMAGEM</h2>
-            </div>
-            <h1>Titulo</h1>
-            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <p><a class="btn btn-primary btn-lg">Learn more</a></p>
-        </div>
 
         <div class="jumbotron">
             <div class="row" >
@@ -58,6 +50,15 @@
             <p><a class="btn btn-primary btn-lg">Learn more</a></p>
         </div>
 
+        <div class="jumbotron">
+            <div class="row" >
+                <h2>IMAGEM</h2>
+            </div>
+            <h1>Titulo</h1>
+            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+        </div>
+        
         <ul class="pagination">
             <li class="disabled"><a href="#">&laquo;</a></li>
             <li class="active"><a href="#">1</a></li>

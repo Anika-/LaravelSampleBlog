@@ -20,7 +20,7 @@ class Usuario extends Model
      *    recuperar artigos do usuario
      */
      public function artigos()
-    {
+    {   //usuario tem varios artigos
         return $this->hasMany('App\Models\BlogPost');
     }
 }

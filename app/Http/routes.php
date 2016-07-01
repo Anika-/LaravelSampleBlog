@@ -13,6 +13,8 @@
 
 
 Route::get('/', function () {
+    //$artigos= BlogPost::with(‘user’)>order_by(‘updated_at’, ‘desc’)->paginate(5)
+    //return view('home')->with('artigos',$artigos);
     return view('home');
 });
 
